@@ -19,14 +19,6 @@ const App = () => {
     }
     setTemperatureValue (newTemp);
   };
-  const highTemp = () =>{
-    const newTemp = temperatureValue + 1;
-  
-      if(newTemp >= 20){
-        setTemperatureColor('hot');
-      }
-      setTemperatureValue (newTemp);
-    };
 
   return(
     <div className='app-container'>
